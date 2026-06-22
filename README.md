@@ -52,7 +52,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ### 4. Run the application
 ```bash
-python app.py
+uvicorn api:app --reload
 ```
 
 ## 🤝 Contributing
